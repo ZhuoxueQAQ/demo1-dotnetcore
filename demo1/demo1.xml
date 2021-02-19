@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>demo1</name>
+    </assembly>
+    <members>
+        <member name="M:demo1.Common.Helper.AppSettings.app(System.String[])">
+            <summary>
+            封装要操作的字符
+            </summary>
+            <param name="sections">节点配置</param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Common.Helper.AppSettings.app``1(System.String[])">
+            <summary>
+            递归获取配置信息数组
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="sections"></param>
+            <returns></returns>
+        </member>
+        <member name="T:demo1.Controllers.PostController">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="M:demo1.Controllers.PostController.AddPost(demo1.Model.Post)">
+            <summary>
+            新增Post
+            </summary>
+            <param name="post"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Controllers.PostController.DeletePost(System.String)">
+            <summary>
+            删除user
+            </summary>
+            <param name="createdDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Controllers.PostController.UpdatePost(demo1.Model.Post)">
+            <summary>
+            修改User
+            </summary>
+            <param name="post"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Controllers.PostController.GetPostByCreatedDate(System.String)">
+            <summary>
+            根据创建日期获取Post
+            </summary>
+            <param name="createdDate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Controllers.PostController.GetAllPost">
+            <summary>
+            获取全部Post
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:demo1.IRepository.IBaseRepository`1">
+            <summary>
+            这里定义了一个泛型基类接口，泛型必须是一个类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:demo1.IRepository.IBaseRepository`1.QueryByPrimaryKey(System.Object)">
+            <summary>
+            根据ID查询
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.IRepository.IBaseRepository`1.QueryAll">
+            <summary>
+            查询全部
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.IRepository.IBaseRepository`1.Add(`0)">
+            <summary>
+            添加
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.IRepository.IBaseRepository`1.Update(`0)">
+            <summary>
+            修改
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.IRepository.IBaseRepository`1.DeleteByPrimaryKey(System.Object)">
+            <summary>
+            删除
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:demo1.Model.User">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:demo1.Model.User.Id">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:demo1.Model.User.Name">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:demo1.Model.User.Age">
+            <summary>
+            Desc:
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="M:demo1.Repository.BaseRepository`1.Add(`0)">
+            <summary>
+            写入实体数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Repository.BaseRepository`1.DeleteByPrimaryKey(System.Object)">
+            <summary>
+            根据ID删除(这里是批量删除)
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Repository.BaseRepository`1.QueryByPrimaryKey(System.Object)">
+            <summary>
+            根据ID查询一条数据
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Repository.BaseRepository`1.QueryAll">
+            <summary>
+            查询全部
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:demo1.Repository.BaseRepository`1.Update(`0)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
